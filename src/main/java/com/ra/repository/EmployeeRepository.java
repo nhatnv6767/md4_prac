@@ -74,7 +74,7 @@ public interface EmployeeRepository extends BaseRepository<Employee> {
     // dong
     // 3. e.department.id = :departmentId: Kiem tra nhan vien co thuoc phong ban
     // duoc chi dinh
-    // 4. e.id = :employeeId: Kiem tra dung nhan vien can tim
+    // 4. e.id = :employeeId: Kiem tra dung nhan vien can tim..
     @Query("SELECT COUNT(e) > 0 FROM Employee e WHERE e.status = true " +
             "AND e.department.id = :departmentId " +
             "AND e.id = :employeeId")
