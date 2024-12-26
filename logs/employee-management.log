@@ -457,3 +457,180 @@ This generated password is for development use only. Your security configuration
 2024-12-26 00:24:53 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/api/v1'
 2024-12-26 00:24:53 [restartedMain] INFO  com.ra.Md4PracApplication - Started Md4PracApplication in 0.506 seconds (process running for 6569.884)
 2024-12-26 00:24:53 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-12-26 00:25:38 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-26 00:25:38 [Thread-187] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-26 00:25:38 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-26 00:25:38 [Thread-187] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-26 00:25:38 [Thread-187] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-48 - Shutdown initiated...
+2024-12-26 00:25:38 [Thread-187] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-48 - Shutdown completed.
+2024-12-26 00:25:38 [restartedMain] INFO  com.ra.Md4PracApplication - Starting Md4PracApplication using Java 17.0.12 with PID 9824 (/Users/bhnone/Work/Coding/Java/MD4/md4_prac/build/classes/java/main started by bhnone in /Users/bhnone/Work/Coding/Java/MD4/md4_prac)
+2024-12-26 00:25:38 [restartedMain] INFO  com.ra.Md4PracApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-26 00:25:38 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-26 00:25:38 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 4 JPA repository interfaces.
+2024-12-26 00:25:38 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-26 00:25:38 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-26 00:25:38 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-26 00:25:38 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2024-12-26 00:25:38 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 104 ms
+2024-12-26 00:25:38 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-26 00:25:38 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-49 - Starting...
+2024-12-26 00:25:38 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Added connection com.mysql.cj.jdbc.ConnectionImpl@8dc72ff
+2024-12-26 00:25:38 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-49 - Start completed.
+2024-12-26 00:25:38 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-26 00:25:38 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-26 00:25:38 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 2 mappings in 'requestMappingHandlerMapping'
+2024-12-26 00:25:38 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-12-26 00:25:38 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-12-26 00:25:38 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-12-26 00:25:39 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 179c9a52-23c2-45e4-a3b7-c3d8a4ffd9bf
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-26 00:25:39 [restartedMain] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-12-26 00:25:39 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-26 00:25:39 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/api/v1'
+2024-12-26 00:25:39 [restartedMain] INFO  com.ra.Md4PracApplication - Started Md4PracApplication in 0.446 seconds (process running for 6615.796)
+2024-12-26 00:25:39 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-12-26 01:10:40 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=4m58s699ms).
+2024-12-26 01:12:37 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=1m26s171ms).
+2024-12-26 01:16:06 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=3m28s988ms).
+2024-12-26 01:32:57 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=16m21s665ms).
+2024-12-26 01:36:39 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=3m12s142ms).
+2024-12-26 01:52:50 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=16m10s829ms).
+2024-12-26 02:13:18 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=17m57s585ms).
+2024-12-26 02:29:38 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=15m49s599ms).
+2024-12-26 02:45:30 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=15m52s638ms).
+2024-12-26 03:05:38 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=16m8s118ms).
+2024-12-26 03:22:22 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=16m13s787ms).
+2024-12-26 03:39:43 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=17m21s243ms).
+2024-12-26 03:56:24 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=16m10s727ms).
+2024-12-26 05:12:04 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=15m38s686ms).
+2024-12-26 05:16:51 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=4m47s85ms).
+2024-12-26 05:33:17 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=15m56s128ms).
+2024-12-26 05:49:55 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=16m38s491ms).
+2024-12-26 06:57:03 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=6m37s369ms).
+2024-12-26 06:57:55 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=51s424ms).
+2024-12-26 06:59:44 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=1m19s274ms).
+2024-12-26 07:01:50 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=1m36s109ms).
+2024-12-26 07:06:58 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=5m7s476ms).
+2024-12-26 07:23:04 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=15m36s97ms).
+2024-12-26 07:40:27 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=17m23s577ms).
+2024-12-26 07:57:34 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=16m36s576ms).
+2024-12-26 08:03:33 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=5m28s568ms).
+2024-12-26 08:07:39 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=4m6s873ms).
+2024-12-26 08:15:50 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=7m40s608ms).
+2024-12-26 08:31:16 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=15m25s426ms).
+2024-12-26 08:48:17 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=16m31s207ms).
+2024-12-26 08:49:48 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=1m1s575ms).
+2024-12-26 08:54:30 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=4m41s412ms).
+2024-12-26 08:56:56 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=1m56s33ms).
+2024-12-26 09:00:06 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=3m10s272ms).
+2024-12-26 09:04:34 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=3m58s252ms).
+2024-12-26 09:22:40 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=18m5s769ms).
+2024-12-26 09:38:41 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=15m31s189ms).
+2024-12-26 09:42:58 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=3m46s945ms).
+2024-12-26 09:50:04 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=7m5s925ms).
+2024-12-26 10:01:22 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=10m48s43ms).
+2024-12-26 10:04:28 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=3m5s333ms).
+2024-12-26 11:26:30 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=17m31s242ms).
+2024-12-26 11:42:24 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=15m24s303ms).
+2024-12-26 11:59:43 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=17m18s901ms).
+2024-12-26 12:13:23 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=13m10s642ms).
+2024-12-26 12:22:29 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=9m5s989ms).
+2024-12-26 12:40:00 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=15m57s606ms).
+2024-12-26 12:55:52 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=15m51s556ms).
+2024-12-26 13:14:37 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=18m15s400ms).
+2024-12-26 13:30:46 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=16m8s615ms).
+2024-12-26 13:47:28 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=16m12s556ms).
+2024-12-26 14:05:56 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=15m57s637ms).
+2024-12-26 14:15:29 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=9m2s982ms).
+2024-12-26 14:32:01 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=16m32s66ms).
+2024-12-26 14:34:51 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=2m20s101ms).
+2024-12-26 14:52:47 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=17m55s987ms).
+2024-12-26 16:01:43 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=1m25s328ms).
+2024-12-26 16:19:20 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=17m6s326ms).
+2024-12-26 16:37:41 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=18m21s590ms).
+2024-12-26 16:51:02 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=12m50s763ms).
+2024-12-26 17:02:27 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=11m25s291ms).
+2024-12-26 17:10:51 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=7m53s735ms).
+2024-12-26 17:26:29 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=15m37s703ms).
+2024-12-26 17:31:08 [HikariPool-49 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-49 - Thread starvation or clock leap detected (housekeeper delta=1m13s461ms).
+2024-12-26 19:22:54 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+2024-12-26 19:22:54 [Thread-191] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-26 19:22:54 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-26 19:22:54 [Thread-191] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-26 19:22:54 [Thread-191] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-49 - Shutdown initiated...
+2024-12-26 19:22:54 [Thread-191] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-49 - Shutdown completed.
+2024-12-26 19:22:54 [restartedMain] INFO  com.ra.Md4PracApplication - Starting Md4PracApplication using Java 17.0.12 with PID 9824 (/Users/bhnone/Work/Coding/Java/MD4/md4_prac/build/classes/java/main started by bhnone in /Users/bhnone/Work/Coding/Java/MD4/md4_prac)
+2024-12-26 19:22:54 [restartedMain] INFO  com.ra.Md4PracApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-26 19:22:54 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-26 19:22:54 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 4 JPA repository interfaces.
+2024-12-26 19:22:54 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-26 19:22:54 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-26 19:22:54 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-26 19:22:54 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2024-12-26 19:22:54 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 126 ms
+2024-12-26 19:22:54 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-26 19:22:54 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-50 - Starting...
+2024-12-26 19:22:54 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-50 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2809600d
+2024-12-26 19:22:54 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-50 - Start completed.
+2024-12-26 19:22:54 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-26 19:22:54 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-26 19:22:54 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 2 mappings in 'requestMappingHandlerMapping'
+2024-12-26 19:22:54 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-12-26 19:22:54 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-12-26 19:22:54 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-12-26 19:22:54 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: ef9f97c3-eb64-4e55-a7f2-f18756760e84
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-26 19:22:54 [restartedMain] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-12-26 19:22:54 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-26 19:22:54 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/api/v1'
+2024-12-26 19:22:54 [restartedMain] INFO  com.ra.Md4PracApplication - Started Md4PracApplication in 0.581 seconds (process running for 34476.398)
+2024-12-26 19:22:54 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-12-26 19:45:10 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (1 addition, 0 deletions, 1 modification)
+2024-12-26 19:45:10 [Thread-195] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-26 19:45:10 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-26 19:45:10 [Thread-195] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-26 19:45:10 [Thread-195] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-50 - Shutdown initiated...
+2024-12-26 19:45:10 [Thread-195] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-50 - Shutdown completed.
+2024-12-26 19:45:10 [restartedMain] INFO  com.ra.Md4PracApplication - Starting Md4PracApplication using Java 17.0.12 with PID 9824 (/Users/bhnone/Work/Coding/Java/MD4/md4_prac/build/classes/java/main started by bhnone in /Users/bhnone/Work/Coding/Java/MD4/md4_prac)
+2024-12-26 19:45:10 [restartedMain] INFO  com.ra.Md4PracApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-26 19:45:10 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-26 19:45:10 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 4 JPA repository interfaces.
+2024-12-26 19:45:10 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-26 19:45:10 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-26 19:45:10 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-26 19:45:10 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2024-12-26 19:45:10 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 114 ms
+2024-12-26 19:45:10 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-26 19:45:10 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-51 - Starting...
+2024-12-26 19:45:10 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-51 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59506162
+2024-12-26 19:45:10 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-51 - Start completed.
+2024-12-26 19:45:11 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-26 19:45:11 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-26 19:45:11 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 2 mappings in 'requestMappingHandlerMapping'
+2024-12-26 19:45:11 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-12-26 19:45:11 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-12-26 19:45:11 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-12-26 19:45:11 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 58e37ee0-89c0-4d8b-b6a5-69acc42f8805
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-26 19:45:11 [restartedMain] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-12-26 19:45:11 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-26 19:45:11 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/api/v1'
+2024-12-26 19:45:11 [restartedMain] INFO  com.ra.Md4PracApplication - Started Md4PracApplication in 0.481 seconds (process running for 35812.821)
+2024-12-26 19:45:11 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-12-26 20:34:46 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-26 20:34:46 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-26 20:34:46 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-26 20:34:46 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-51 - Shutdown initiated...
+2024-12-26 20:34:46 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-51 - Shutdown completed.
