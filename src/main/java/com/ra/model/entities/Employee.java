@@ -14,6 +14,7 @@ import java.util.Set;
 //@Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 public class Employee extends BaseEntity {
     @Column(nullable = false)
     private String firstName;

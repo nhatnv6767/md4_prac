@@ -1,9 +1,6 @@
 package com.ra.dto.response;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.util.List;
 
@@ -14,4 +11,7 @@ import java.util.List;
 public class ErrorResponse extends BaseResponse {
     private String errorCode;
     private List<String> errors;
+
+    public ErrorResponse(boolean b, String message, String name, Object o) {
+    }
 }
